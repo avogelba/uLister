@@ -251,14 +251,18 @@ void iniparse() {
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 wchar_t* getlibpath(wchar_t *libname,wchar_t *libpath) {
-	GetModuleFileNameW(hInst, libpath, MAX_PATH);
+	/*GetModuleFileNameW(hInst, libpath, MAX_PATH);
 	if(wcsrchr(libpath, L'\\'))*wcsrchr(libpath, L'\\') = L'\0';
 	wcscat_s(libpath, MAX_PATH,L"\\");
 	wcscat_s(libpath, MAX_PATH,libname);
-	if(GetFileAttributesW(libpath)!=INVALID_FILE_ATTRIBUTES)return libpath;
+	if(GetFileAttributesW(libpath)!=INVALID_FILE_ATTRIBUTES)return libpath;*/
 	GetModuleFileNameW(hInst, libpath, MAX_PATH);
 	if(wcsrchr(libpath, L'\\'))*wcsrchr(libpath, L'\\') = L'\0';
-	wcscat_s(libpath, MAX_PATH,L"\\redist\\");
+	#if !defined _M_X64 && !defined __amd64__
+		wcscat_s(libpath, MAX_PATH,L"\\redist32\\");
+	#else
+		wcscat_s(libpath, MAX_PATH,L"\\redist64\\");
+	#endif
 	wcscat_s(libpath, MAX_PATH,libname);
 	if(GetFileAttributesW(libpath)!=INVALID_FILE_ATTRIBUTES)return libpath;
 	return NULL;

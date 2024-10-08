@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>uLister_ru</title></head><body><big style="font-weight: bold;">uLister + Text Search + Document Converter (C) Egor Vlaznev 2011</big><br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Содержание:<br>
+<a href="#about">1. О программе</a><br>
+<a href="#formats">2. Поддерживаемые форматы</a><br>
+<a href="#license">3. Лицензия</a><br>
+<a href="#libs">4. Используемые библиотеки</a><br>
+<a href="#settings">5. Настройка</a><br>
+<a href="#install">6. Установка</a><br>
+&nbsp;&nbsp;&nbsp; <a href="#install_lister">Lister плагин</a><br>
+&nbsp;&nbsp;&nbsp; <a href="#install_content">Content плагин</a><br>
+&nbsp;&nbsp;&nbsp; <a href="#Document_Converter:">Document Converter</a><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#text:">text</a><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#pdf:">pdf</a><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#html_mhtml:">html, mhtml</a><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#jpeg_2000_jpeg_tiff_png_gif_bmp:">jpeg 2000, jpeg, tiff, png, gif, bmp</a><br>
+&nbsp;&nbsp;&nbsp; </span><a style="font-weight: bold;" href="#bookmark_browser">Обозреватель закладок</a><br>
+<span style="font-weight: bold;">
+<a href="#hotkeys">7. Сочетания клавиш</a><br>
+<a href="#history">8. История</a><br>
+</span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"></span><big style="font-weight: bold;"><a name="about"></a>1. О программе</big><br>
+<ul>
+  <li><span style="font-weight: bold;">uLister</span> это мощное средство просмотра которое позволяет просматривать более 500 различных форматов файлов.</li>
+  <li><span style="font-weight: bold;">Text Search</span> позволяет искать файлы, содержащие заданный текст в документах поддерживаемых типов и вложениях всех уровней.</li>
+  <li><span style="font-weight: bold;">Document Converter</span> позволяет конвертировать просматриваемые файлы в txt,pdf,html,mhtml, jpeg 2000, jpeg, tiff, png, gif, bmp.</li>
+</ul>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="formats"></a>2. Поддерживаемые форматы</big><br>
+Множество популярных форматов текстовых процессоров, электронных таблиц, презентаций, растровых и векторных изображений.<br>
+Полный список:<br>
+<a href="http://www.oracle.com/technetwork/middleware/content-management/ds-oitfiles-133032.pdf">http://www.oracle.com/technetwork/middleware/content-management/ds-oitfiles-133032.pdf</a><br>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="license"></a>3. Лицензия</big><br>
+Плагин поставляется как есть и без всяких гарантий.<br>
+Хотя плагин является freeware, он использует сторонние библиотеки Oracle®, <span style="font-weight: bold; color: red;">ознакомьтесь с лицензией перед началом использования.</span><br>
+<a href="http://www.oracle.com/technetwork/licenses/standard-license-152015.html">http://www.oracle.com/technetwork/licenses/standard-license-152015.html</a><br>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="libs"></a>4. Используемые библиотеки</big><br>
+<ul>
+  <li>
+
+Outside In Viewer © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In Search Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In PDF Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In HTML Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In Image Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In File ID © 1991, 2010 Oracle.</li>
+  <li>
+
+The software is based in part on the work of the Independent JPEG Group.</li>
+  
+</ul>
+
+
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="settings"></a>5. Настройка</big><br>
+Параметры хранятся в ulister.ini поиск которого производится в следующем порядке:<br>
+<ol>
+  <li>каталог плагина</li>
+  <li>%COMMANDER_INI%</li>
+  <li>%APPDATA%</li>
+</ol>
+Если вы хотите редактировать настройки из плагина убедитесь что ulister.ini доступен для записи.<br>
+Если&nbsp; ulister.ini не найден то он будет создан в %APPDATA%<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"></span><ul><ul><li>Параметр noloadtypes содержит список запрещенных к загрузке форматов.</li>
+  </ul>
+
+  
+  <ul>
+    <li>Параметр onlyloadtypes содержит список разрешенных к загрузке форматов.</li>
+  </ul>
+
+  
+  <ul>
+    <li>Параметр nopreviewtypes содержит список запрещенных к показу эскизов форматов.</li>
+  </ul>
+
+  
+  <ul>
+    <li>Параметр onlypreviewtypes содержит список разрешенных показу эскизов форматов.</li>
+  </ul>
+
+  
+  <ul>
+    <li>Параметр nosearchtypes содержит список запрещенных форматов для поиска файлов, содержащих заданный текст.</li>
+  </ul>
+
+  
+  
+  <ul>
+
+    <li>Параметр onlysearchtypes содержит список разрешенных форматов для поиска файлов, содержащих заданный текст.</li><li>Параметр keepinmemory отвечает за возможность не выгружать
+библиотеки Outside In Viewer из памяти после первого использования,что
+уменьшает время загрузки документа, но увеличивает потребляемую память (По умолчанию разрешено).</li><li>Параметр optionsdir содержит путь к каталогу в котором будут сохраняться настройки (Поддерживаются переменные окружения).</li>
+    <li>Параметр showtoolbar отвечает за панели инструментов (По умолчанию разрешено).</li>
+
+  
+  </ul>
+
+
+</ul><ul>
+
+  
+  
+
+  
+  
+
+</ul>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="install"></a>6. Установка</big><br>
+Все перечисленные ниже файлы можно загрузить со страницы <a href="http://www.oracle.com/technetwork/middleware/content-management/downloads/oit-dl-otn-097435.html">http://www.oracle.com/technetwork/middleware/content-management/downloads/oit-dl-otn-097435.html</a>, <span style="font-weight: bold; color: red;">для этого необходимо принять лицензию и зарегистрироваться на сайте.</span><br>
+<hr style="width: 100%; height: 2px;"><a name="install_lister"></a><span style="font-weight: bold;">Lister плагин:</span><br>
+Установите плагин из архива.<br>
+Загрузите <a href="http://download.oracle.com/otn/outsidein/vw-8-3-5-win-x86-32.zip">vw-8-3-5-win-x86-32.zip</a> : Viewer Technology 8.3.5 Windows (x86-32)<br>
+Скопируйте каталог redist в каталог плагина. <br>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="install_content"></a><small>Content плагин:</small></big><br>
+Добавьте ulister.wlx, как wdx плагин в TotalCommander.<br>
+Загрузите <a href="http://download.oracle.com/otn/outsidein/sx-8-3-5-win-x86-32.zip">sx-8-3-5-win-x86-32.zip</a> : Search Export 8.3.5&nbsp; Windows (x86-32)<br>
+Скопируйте каталог redist в каталог плагина, без замены файлов. <br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="Document_Converter:"></a>Document Converter:</span><br>
+Если Вы хотите конвертировать несколько файлов за раз, Вам необходимо
+установить плагин как wcx, для этого добавьте в wincmd.ini:<br>
+[PackerPlugins]<br>
+convert=23,<span style="font-style: italic;">path to uLister</span>\ulister.wlx<br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="text:"></a>text:</span><br>
+Загрузите <a href="http://download.oracle.com/otn/outsidein/sx-8-3-5-win-x86-32.zip">sx-8-3-5-win-x86-32.zip</a> : Search Export 8.3.5 Windows (x86-32)<br>
+Скопируйте каталог redist в каталог плагина, без замены файлов. <br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="pdf:"></a>pdf:</span><br>
+Загрузите <a href="http://download.oracle.com/otn/outsidein/px-8-3-5-win-x86-32.zip">px-8-3-5-win-x86-32.zip</a> : PDF Export 8.3.5 Windows (x86-32)<br>
+Скопируйте каталог redist в каталог плагина, без замены файлов. <br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="html_mhtml:"></a>html, mhtml:</span><br>
+Загрузите <a href="http://download.oracle.com/otn/outsidein/hx-8-3-5-win-x86-32.zip">hx-8-3-5-win-x86-32.zip</a> : HTML Export 8.3.5 Windows (x86-32)<br>
+Скопируйте каталог redist в каталог плагина, без замены файлов. <br>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="jpeg_2000_jpeg_tiff_png_gif_bmp:"></a>jpeg
+2000, jpeg, tiff, png, gif, bmp:</span><br>
+Загрузите <a href="http://download.oracle.com/otn/outsidein/ix-8-3-5-win-x86-32.zip">ix-8-3-5-win-x86-32.zip</a> : Image Export 8.3.5 Windows (x86-32)<br>
+Скопируйте каталог redist в каталог плагина, без замены файлов. <br>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="bookmark_browser"></a>Обозреватель закладок:</big><br>
+Для просмотра списка файлов для которых есть закладки, добавьте ulister.wlx, как wfx плагин в TotalCommander.<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"></span><big style="font-weight: bold;"><a name="hotkeys"></a>7. Сочетания клавиш</big><br>
+<ul>
+  <li>Ctrl M - Сохранить текущую позицию</li>
+  <li>Ctrl T - Показать/Убрать панель инструментов<br>
+  </li>
+
+  <li>Ctrl O - Опции<br>
+  </li>
+
+  <li>
+
+Ctrl Z - Восстановить сохраненную позицию</li>
+  <li>Ctrl S - Диалог конвертирования</li>
+  <li>Ctrl + - Увеличить масштаб</li>
+  <li>Ctrl - - Уменьшить масштаб</li>
+</ul>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="history"></a>8. История</big><br>
+<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">3.0.2 (8.04.2011)</span><br>
+
+
+<ul>
+<li>Исправлена критическая ошибка изменения размера окна</li>
+  <li>Исправлен режим быстрого просмотра<br>
+  </li>
+</ul>
+
+
+
+<span style="font-weight: bold;"></span><span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">3.0.1 (31.03.2011)</span><br>
+
+<ul>
+<li>Поддержка табов удалена<br>
+</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">3.0.0 (29.03.2011)</span><br>
+<ul>
+  <li>Добавлены табы<span style="color: rgb(253, 253, 253);"></span></li>
+  <li>Добавлен обозреватель закладок (через wfx функциональность)</li>
+  <li>Добавлен фильтр типов файлов в диалоге настройки</li>
+  <li>Добавлены опции конвертирования</li>
+  <li>Исправлены ошибки</li>
+</ul>
+
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">2.6.0 (18.03.2011)</span><br>
+
+<ul>
+<li>Добавлена wcx функциональность для Document Converter, теперь он может конвертировать множество файлов за раз<br>
+</li><li>
+
+Исправлены ошибки<br>
+</li>
+</ul>
+
+
+
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"></span><span style="font-weight: bold;">2.5.0 (17.03.2011)<br>
+</span>
+<ul>
+  <li>Добавлен диалог настроек</li>
+  <li>Исправлены ошибки</li>
+</ul>
+
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">2.0.0 (02.03.2011)<br>
+
+</span>
+<ul>
+  <li>Добавлена панель инструментов</li>
+  <li>Добавлены пункты в контекстное меню<br>
+  </li>
+  <li>Исправлена ошибка показа Unicode имен файлов в заголовке lister</li>
+  <li>Исправлена ошибка в парсере ini<br>
+
+  </li>
+</ul>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.4.0 (17.02.2011)<br>
+
+</span>
+<ul>
+<li>
+
+Исправлено множество ошибок в Document Converter <span style="font-weight: bold;"></span>(Работа с unicode + Диалог сохранения файлов)</li><li>
+
+Исправлена динамическая загрузка библиотек (Теперь работает с unicode путями).</li><li>
+
+Добавлено преобразование в jpeg 2000, jpeg, tiff, png, gif, bmp.</li><li>
+
+Добавлена возможность сохранения текущей позиции.</li>
+  <li>Ini парсер теперь работает с UTF-8 файлами и unicode именами файлов.<br>
+  </li>
+
+</ul>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.3.0 (09.02.2011)</span><br>
+<ul>
+  <li>Добавлена возможность конвертирования просматриваемых файлов в txt,pdf,html,mhtml.</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.2.1 (03.02.2011)</span><br>
+<ul>
+  <li>Скорость работы Content-плагина значительно увеличена.</li>
+</ul>
+<span style="font-weight: bold;">1.2.0 (03.02.2011)</span><br>
+<ul>
+  <li>Добавлены функции Content-плагина позволяющие искать файлы содержащие заданный текст в документах поддерживаемых типов.</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.1.0 (29.01.2011)</span><br>
+<ul>
+  <li>Исправлена критическая ошибка при загрузке некоторых векторных форматов.</li>
+  <li>Исправлена ошибка навигации в html.</li>
+  <li>Добавлены функции ListGetPreviewBitmap,ListGetPreviewBitmapW</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.4 (22.01.2011)</span><br>
+<ul>
+  <li>Исправлен вертикальный скроллинг мышью, теперь не застревает и не проматывает по три страницы за раз.</li>
+  <li>Добавлен горизонтальный скроллинг мышью, если ваша мышь его поддерживает.</li>
+  <li>Добавлена возможность изменения масштаба при помощи Ctrl +/- или колеса мыши.</li>
+  <li>Исправлен поиск, Shift F3 теперь работает.</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.3 (21.01.2011)</span><br>
+<ul>
+  <li>Исправлена серьезная ошибка, появившаяся в версии 1.0.2</li>
+  <li>Добавлена возможность не выгружать библиотеки Outside In Viewer
+из памяти после первого использования,что уменьшает время загрузки
+документа, но увеличивает потребляемую память.</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.2 (21.01.2011)</span><br>
+<ul>
+  <li>Поддержка вложений теперь действительно работает для Total Commander 7.50 и старше</li>
+  <li>Автоматическое сохранение опций при выходе.</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.1 (21.01.2011)</span><br>
+<ul>
+  <li>Все библиотеки теперь загружаются динамически, что позволяет
+плагину работать в старых версиях Total Commander и других программах
+использующих wlx плагины.</li>
+  <li>Добавлена поддержка вложений для Total Commander 7.50 и старше</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.0 (20.01.2011)</span><br>
+<ul>
+  <li>Первая версия</li>
+</ul>
+<br>
+
+</body></html>
