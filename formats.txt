@@ -1,0 +1,728 @@
+1000  -  Word for DOS 4.x
+1001  -  Word for DOS 5.x
+1002  -  Wordstar 5.0
+1003  -  Wordstar 4.0
+1004  -  Wordstar 2000
+1005  -  WordPerfect 5.0
+1006  -  MultiMate 3.6
+1007  -  MultiMate Advantage 2
+1008  -  IBM DCA/RFT
+1009  -  IBM DisplayWrite 2 or 3
+1010  -  SmartWare II
+1011  -  Samna
+1012  -  PFS: Write A
+1013  -  PFS: Write B
+1014  -  Professional Write 1
+1015  -  Professional Write 2
+1016  -  IBM Writing Assistant
+1017  -  First Choice WP
+1018  -  WordMarc
+1019  -  Navy DIF
+1020  -  Volkswriter
+1021  -  DEC DX 3.0 and below
+1022  -  Sprint
+1023  -  WordPerfect 4.2
+1024  -  Total Word
+1025  -  Wang IWP
+1026  -  Wordstar 5.5
+1028  -  Rich Text Format
+1029  -  Mac Word 3.0
+1030  -  Mac Word 4.0
+1031  -  Mass 11
+1032  -  MacWrite II
+1033  -  XyWrite / Nota Bene
+1034  -  IBM DCA/FFT
+1035  -  Mac WordPerfect 1.x
+1036  -  IBM DisplayWrite 4
+1037  -  Mass 11
+1038  -  WordPerfect 5.1/5.2
+1039  -  MultiMate 4.0
+1040  -  Q&A Write
+1041  -  MultiMate Note
+1043  -  PC File 5.0 Doc
+1044  -  Lotus Manuscript 1.0
+1045  -  Lotus Manuscript 2.0
+1046  -  Enable WP 3.0
+1047  -  Windows Write
+1048  -  Microsoft Works 1.0
+1049  -  Microsoft Works 2.0
+1050  -  Wordstar 6.0
+1051  -  OfficeWriter
+1053  -  IBM DisplayWrite 5
+1054  -  Word for Windows 1.x
+1055  -  Word for Windows 1.x
+1056  -  Ami
+1057  -  Ami Pro
+1058  -  First Choice 3 WP
+1059  -  Mac WordPerfect 2.0
+1060  -  Mac Works 2.0 WP
+1061  -  Professional Write Plus
+1062  -  Legacy
+1063  -  Signature
+1064  -  Wordstar for Windows
+1065  -  Word for Windows 2.0
+1066  -  JustWrite 1.0
+1067  -  Wordstar 7.0
+1068  -  Windows Works WP
+1069  -  JustWrite 2.0
+1070  -  Ami [Clip]
+1071  -  Legacy [Clip]
+1072  -  Pro Write Plus [Clip]
+1073  -  Mac Word 5.x
+1074  -  Enable WP 4.x
+1075  -  WordPerfect 6.0
+1076  -  Word for DOS 6.x
+1077  -  DEC DX 3.1
+1078  -  WordPerfect Encrypted
+1079  -  Q&A Write 3
+1080  -  Mac WordPerfect 3.0
+1081  -  CEO Word
+1082  -  Word 6.0 or 7.0
+1083  -  WordPerfect 5.1 Far East
+1084  -  Ichitaro 3.x
+1085  -  Ichitaro 4.x/5.x/6.x
+1086  -  Word for Windows 1.2 J
+1087  -  Word for Windows 5.0 J
+1088  -  Matsu 4
+1089  -  Matsu 5
+1090  -  P1 Japan
+1091  -  Rich Text Format Japan
+1092  -  CEO Write
+1093  -  Windows Works 3.0 WP
+1094  -  Microsoft WordPad
+1095  -  WP/Novell Unknown Format
+1096  -  Word for Windows 2.0 Object
+1097  -  WordPerfect 6.1 - 12.0 / X3-4
+1098  -  Fulcrum Document Format
+1099  -  Europa Fulcrum
+1100  -  Europa Fulcrum
+1101  -  Internet HTML
+1102  -  Word 7.0
+1103  -  Arehangeul
+1104  -  Hana
+1105  -  Windows Works 4.0 WP
+1106  -  PerfectWorks for Windows
+1107  -  WordPerfect 7.0/8.0/10.0/X3/X4
+1108  -  WordPro 96
+1109  -  HTML - Central European
+1110  -  HTML - Japanese (ShiftJIS)
+1111  -  HTML - Japanese (EUC)
+1112  -  HTML - Chinese (Big5)
+1113  -  HTML - Chinese (EUC)
+1114  -  HTML - Chinese (GB)
+1115  -  HTML - Korean (Hangul)
+1116  -  HTML - Cyrillic (ANSI 1251)
+1117  -  HTML - Cyrillic (KOI8-R)
+1118  -  Text - Cyrillic (ANSI 1251)
+1119  -  Text - Cyrillic (KOI8-R)
+1124  -  Digital WPS Plus
+1125  -  Mac Word 6
+1126  -  Microsoft Word 97/98
+1127  -  Rainbow
+1128  -  Interleaf 6
+1129  -  MIFF 3.0
+1130  -  MIFF 4.0
+1131  -  MIFF 5.0
+1132  -  Text Mail
+1133  -  Mac Word 97
+1134  -  Interleaf Japan
+1135  -  MIFF 3.0 Japan
+1136  -  MIFF 4.0 Japan
+1137  -  MIFF 5.0 Japan
+1138  -  MIFF 5.5
+1139  -  WordPerfect 8.0/10.0
+1140  -  Ichitaro 8.x/9.x/10.x/11.x/12.x/13.x/2004
+1141  -  vCard
+1142  -  HTML - Cascading Style Sheets
+1143  -  MS Outlook
+1144  -  Pocket Word
+1145  -  WordPro 97/Millennium
+1146  -  Microsoft Word 2000
+1147  -  Word 2000 HTML
+1148  -  Excel 2000 HTML
+1149  -  PowerPoint 2000 HTML
+1150  -  Extensible Markup Language (XML)
+1151  -  Wireless Markup Language (WML)
+1153  -  HTML - Japanese (JIS)
+1154  -  WML - Chinese (Big5)
+1155  -  WML - Chinese (EUC)
+1156  -  WML - Chinese (GB)
+1157  -  WML - Cyrillic (ANSI 1251)
+1158  -  WML - Cyrillic (KOI8-R)
+1159  -  WML - Japanese (JIS)
+1160  -  WML - Japanese (ShiftJIS)
+1161  -  WML - Japanese (EUC)
+1162  -  WML - Korean (Hangul)
+1163  -  WML - Central European
+1165  -  StarOffice 5.2 Writer
+1166  -  MIFF 6.0
+1167  -  MIFF 6.0 Japan
+1168  -  MIFF
+1170  -  ASCII Text
+1171  -  Handheld Device Markup Language (HDML)
+1172  -  Compact HTML (CHTML)
+1173  -  XHTML Basic
+1174  -  AvantGo HTML
+1175  -  Web Clipping Application (WCA) HTML
+1177  -  Pocket Word - Pocket PC
+1178  -  Wireless HTML
+1179  -  Hangul 97 Word Processor
+1180  -  Hangul 2002/2007 Word Processor
+1181  -  Internet HTML - Unicode
+1182  -  XML With Doctype HTML
+1184  -  EBCDIC encoded Text
+1185  -  Microsoft Word 2002
+1186  -  Microsoft Word 2003/2004
+1187  -  Internet Message
+1188  -  StarOffice 6 & 7 Writer
+1189  -  Microsoft Outlook PST/OST 97/2000/XP
+1191  -  Microsoft Works 2000
+1192  -  Internet Mail Message
+1193  -  Internet News Message
+1194  -  Outlook Express News Message
+1195  -  Outlook Express Mail Message
+1196  -  vCalendar
+1197  -  Transport-Neutral Encapsulation Format(TNEF)
+1198  -  MHTML(Web Archive)
+1200  -  Smart DataBase
+1201  -  DBase III
+1202  -  DBase IV or V
+1203  -  Framework III
+1204  -  Microsoft Works DB
+1205  -  DataEase 4.x
+1206  -  Paradox 2 or 3
+1207  -  Paradox 3.5
+1208  -  Q&A Database
+1209  -  Reflex
+1210  -  R:Base System V
+1211  -  R:Base 5000
+1212  -  R:Base File 1
+1213  -  R:Base File 3
+1214  -  First Choice DB
+1215  -  Mac Works 2.0 DB
+1216  -  Windows Works DB
+1217  -  Paradox
+1218  -  Microsoft Access
+1219  -  CEO Decision Base
+1220  -  Windows Works 3.0 DB
+1221  -  Windows Works 4.0 DB
+1222  -  Microsoft Access 7
+1223  -  Microsoft Project 98
+1224  -  Microsoft Project 2000/2002/2003
+1225  -  Microsoft Project 2002
+1226  -  Microsoft Project 2007
+1227  -  Lotus Notes Database File
+1228  -  Microsoft Project 2010
+1301  -  PST Fields File
+1302  -  Microsoft Outlook PST/OST 2003/2007
+1303  -  Microsoft Outlook PAB
+1306  -  Yahoo! Messenger Archive
+1307  -  Microsoft Word XML 2003
+1309  -  StarOffice 8 Writer (ODF 1.1)
+1311  -  Outlook Form Template
+1312  -  Microsoft Word 2007/2008
+1313  -  Password Protected Microsoft Word 2007/2008
+1314  -  Microsoft Word 2007/2008 Template
+1316  -  DRM protected Unknown
+1317  -  DRM protected Microsoft Word
+1318  -  DRM protected Microsoft Word 2007/2008
+1319  -  File sealed by Oracle IRM
+1320  -  Extensible Metadata Platform
+1323  -  Open Office 1.x Writer
+1324  -  Open Office 2.x Writer (ODF 1.1)
+1325  -  IBM/Lotus Symphony Document (ODF 1.1)
+1327  -  Microsoft Word 2007/2008 Macro Enabled Document
+1328  -  Microsoft Word 2007/2008 Macro Enabled Template
+1329  -  Microsoft Word Picture
+1331  -  Open Office 3.x Writer (ODF 1.2)
+1332  -  StarOffice 9 Writer (ODF 1.2)
+1333  -  Oracle Open Office 3.x Writer (ODF 1.2)
+1334  -  Samsung Jungum File
+1335  -  Kingsoft Office Writer File
+1336  -  Microsoft Word 2010
+1337  -  Microsoft Word 2010 Template
+1338  -  Microsoft Word 2010 Macro Enabled Document
+1339  -  Microsoft Word 2010 Macro Enabled Template
+1340  -  Password Protected Microsoft Word 2010
+1400  -  Symphony
+1401  -  Lotus 1-2-3 1.0
+1402  -  Lotus 1-2-3 2.0
+1403  -  Lotus 1-2-3 3.x
+1404  -  Smart Spreadsheet
+1405  -  Microsoft Excel 2.x
+1406  -  Enable Spreadsheet
+1407  -  Microsoft Works SS
+1408  -  VP-Planner
+1409  -  Mosaic Twin
+1410  -  SuperCalc 5
+1411  -  Quattro Pro
+1412  -  Quattro
+1413  -  PFS: Plan
+1414  -  First Choice SS
+1415  -  Microsoft Excel 3.0
+1416  -  Generic WKS
+1417  -  Mac Works 2.0 SS
+1418  -  Windows Works SS
+1419  -  Microsoft Excel 4.0
+1420  -  Quattro Pro for Windows
+1421  -  Lotus 1-2-3 4.x / 5.x
+1422  -  Quattro Pro Windows Japan
+1423  -  CEO Spreadsheet
+1424  -  Microsoft Excel 5.0/7.0
+1425  -  Multiplan 4.0
+1426  -  Windows Works 3.0 SS
+1427  -  Quattro Pro 4.0
+1428  -  Quattro Pro 5.0
+1429  -  Quattro Pro Win 6.0
+1430  -  Lotus 123 Release 2 for OS/2
+1431  -  Lotus 123 for OS/2 Chart
+1432  -  Windows Works 4.0 SS
+1433  -  Quattro Pro Win 7.0/8.0
+1434  -  Quattro Pro Win 7.0/8.0 Graph
+1435  -  Lotus 1-2-3 97 Edition
+1436  -  Microsoft Mac Excel 4.0
+1437  -  Microsoft Mac Excel 5.0
+1438  -  Microsoft Excel 97/98/2004
+1439  -  MS Excel 3.0 Workbook
+1440  -  MS Excel 4.0 Workbook
+1441  -  MS Excel Mac 4.0 Workbook
+1442  -  MS Excel Mac 4.0 Workbook
+1443  -  Lotus 1-2-3 98/Millennium Edition
+1444  -  Quattro Pro 8.0
+1445  -  Quattro Pro Win 9.0 / X3
+1446  -  Microsoft Excel 2000
+1447  -  Quattro Pro Win 10.0
+1448  -  Microsoft Excel 2002
+1449  -  StarOffice 5.2 Calc
+1450  -  Quattro Pro Win 11.0
+1451  -  Microsoft Excel 2003
+1452  -  StarOffice 6 & 7 Calc
+1453  -  Quattro Pro Win 12.0
+1454  -  StarOffice 8 Calc (ODF 1.1)
+1455  -  Microsoft Excel 2007/2008
+1456  -  Password Protected Microsoft Excel 2007/2008
+1457  -  Microsoft Excel 2007/2008 Binary
+1458  -  DRM protected Microsoft Excel
+1459  -  DRM protected Microsoft Excel 2007/2008
+1460  -  Microsoft Works SS 6.0/7.0/8.0
+1461  -  Open Office 1.x Calc
+1462  -  Open Office 2.x Calc (ODF 1.1)
+1463  -  IBM/Lotus Symphony Spreadsheet (ODF 1.1)
+1464  -  Microsoft Excel 2007/2008 Template
+1465  -  Microsoft Excel 2007/2008 Macro Enabled Workbook
+1466  -  Microsoft Excel 2007/2008 Macro Enabled Template
+1467  -  Microsoft Excel XML 2003
+1468  -  Open Office 3.x Calc (ODF 1.2)
+1469  -  Quattro Pro Win X4
+1470  -  Password Protected Microsoft Excel 2007/2008 Binary
+1471  -  Microsoft Excel 2007 Excel Add-in Macro File
+1472  -  Lotus Data Interchange Format
+1473  -  StarOffice 9 Calc (ODF 1.2)
+1474  -  Oracle Open Office 3.x Calc (ODF 1.2)
+1475  -  Kingsoft Office Spreadsheet File
+1476  -  Microsoft Excel 2010 Workbook
+1477  -  Microsoft Excel 2010 Macro Enabled Workbook
+1478  -  Microsoft Excel 2010 Template
+1479  -  Microsoft Excel 2010 Macro Enabled Template
+1480  -  Microsoft Excel 2010 Excel Add-in Macro File
+1481  -  Microsoft Excel 2010 Binary
+1482  -  Password Protected Microsoft Excel 2010
+1483  -  Password Protected Microsoft Excel 2010 Binary
+1500  -  Windows Bitmap
+1501  -  Tagged Image File Format
+1502  -  Paintbrush
+1503  -  Compuserve GIF
+1504  -  EPS (TIFF Header)
+1505  -  CCITT Group 3 Fax
+1506  -  Mac PICT2
+1507  -  WordPerfect Graphic
+1508  -  Windows Metafile
+1509  -  Lotus PIC
+1510  -  Mac PICT
+1511  -  Ami Draw
+1512  -  Targa
+1513  -  GEM Image
+1514  -  OS/2 Bitmap
+1515  -  Windows Icon
+1516  -  Windows Cursor
+1517  -  Micrografx product
+1518  -  MacPaint
+1520  -  Corel Draw 2.0
+1521  -  Corel Draw 3.0
+1522  -  HP Graphics Language
+1523  -  Harvard 3.0 Chart
+1524  -  Harvard 2.0 Chart
+1525  -  Harvard 3.0 Presentation
+1526  -  Freelance
+1527  -  WordPerfect Graphic 2
+1528  -  CGM Graphic Metafile
+1529  -  Excel 2.x Chart
+1530  -  Excel 3.0 Chart
+1531  -  Excel 4.0 Chart
+1532  -  Candy 4
+1533  -  Hanako 1.x
+1534  -  Hanako 2.x
+1535  -  JPEG File Interchange
+1536  -  Excel 5.0/7.0 Chart
+1537  -  Corel Draw 4.0
+1538  -  PowerPoint 4.0
+1539  -  Multipage PCX
+1540  -  PowerPoint 3.0
+1541  -  Corel Draw 5.0
+1542  -  OS/2 Metafile
+1543  -  PowerPoint 7.0
+1544  -  AutoCAD DXF (ASCII)
+1545  -  AutoCAD DXF (Binary)
+1546  -  AutoCAD DXB
+1547  -  Freelance 96/97/Millennium Edition
+1548  -  Mac PowerPoint 3.0
+1549  -  Mac PowerPoint 4.0
+1550  -  WordPerfect Presentations
+1551  -  OS/2 Warp Bitmap
+1552  -  AutoCAD Drawing 12
+1553  -  AutoCAD Drawing 13
+1554  -  Adobe Illustrator
+1555  -  Corel Presentations 7.0 - 12.0 / X3
+1556  -  WordPerfect Graphic 7.0 - 12.0 / X3-4
+1557  -  Adobe Acrobat (PDF)
+1558  -  Framemaker
+1559  -  RAS - Sun Raster
+1560  -  AutoShade Rendering
+1561  -  Kodak Photo CD
+1562  -  PowerPoint 4.0 (extracted from docfile)
+1563  -  Mac PowerPoint 4.0 (extracted from docfile)
+1564  -  Enhanced Windows Metafile
+1565  -  GEM
+1566  -  Mac PowerPoint 3.0
+1567  -  Mac PowerPoint 4.0
+1568  -  Harvard Graphics for Windows
+1569  -  IGES Drawing File Format
+1570  -  IBM Picture Interchange Format
+1571  -  X-Windows Bitmap
+1572  -  X-Windows Pixmap
+1573  -  CALS Raster File Format
+1574  -  Portable Network Graphics Format
+1575  -  X-Windows Dump
+1576  -  CorelDraw ClipArt
+1577  -  HP Gallery
+1578  -  Graphics Data Format
+1579  -  Micrografx Designer
+1580  -  Post Script
+1581  -  Microsoft PowerPoint 97-2004
+1582  -  Corel Draw 6.0
+1583  -  Corel Draw 7.0
+1584  -  PDF MacBinary Header
+1585  -  AutoCAD Drawing - Unknown Version
+1586  -  Visio 4.x
+1587  -  AutoCAD Drawing 14
+1588  -  PBM (Portable Bitmap)
+1589  -  PGM (Portable Graymap)
+1590  -  PPM (Portable Pixmap)
+1591  -  Adobe Photoshop
+1592  -  Microsoft PowerPoint Dual 95/97
+1593  -  Paint Shop Pro
+1594  -  Kodak FlashPix
+1595  -  Visio 5.x
+1596  -  Corel Draw 8.0
+1597  -  Visio 6.x
+1598  -  Corel Draw 9.0
+1599  -  Progressive JPEG
+1600  -  Microsoft PowerPoint 2000/2002
+1601  -  Bentley Microstation DGN
+1602  -  Windows 98/2000 Bitmap
+1603  -  Wireless Bitmap
+1604  -  MIFF Graphic
+1605  -  Microsoft PowerPoint 2
+1606  -  WordPerfect Graphic 10.0
+1607  -  Visio 3.x
+1608  -  Micrografx Designer
+1609  -  PDF Image
+1610  -  StarOffice 5.2 Impress
+1611  -  Adobe Illustrator 9
+1612  -  AutoCAD 2000/2002 Drawing
+1613  -  AutoCAD 2.5 Drawing
+1614  -  AutoCAD 2.6 Drawing
+1615  -  AutoCAD 9 Drawing
+1616  -  AutoCAD 10 Drawing
+1617  -  QuarkXPress 3.0 For Macintosh
+1618  -  QuarkXPress 3.1 For Macintosh
+1619  -  QuarkXPress 3.2 For Macintosh
+1620  -  QuarkXPress 3.3 For Macintosh
+1621  -  QuarkXPress 4.0 For Macintosh
+1622  -  QuarkXPress 3.3 For Windows
+1623  -  QuarkXPress 4.0 For Windows
+1624  -  QuarkXPress 5.0 For Windows
+1625  -  Export Image
+1626  -  StarOffice 6 & 7 Draw
+1627  -  StarOffice 6 & 7 Impress
+1628  -  JBIG2 Bitmap
+1629  -  Corel Draw 10.0
+1630  -  Corel Draw 11.0
+1631  -  Microsoft Visio 2003/2007
+1632  -  StarOffice 8 Draw (ODF 1.1)
+1633  -  StarOffice 8 Impress (ODF 1.1)
+1634  -  AutoCAD 2004/2005/2006 Drawing
+1635  -  Microsoft PowerPoint 2007/2008
+1636  -  Microsoft XML Paper Specification
+1637  -  Password Protected Microsoft PowerPoint 2007/2008
+1638  -  AutoCAD 2007 Drawing
+1639  -  OS/2 v.2 Bitmap
+1640  -  StarView Metafile
+1641  -  eFax Document
+1642  -  DRM protected Microsoft PowerPoint
+1643  -  DRM protected Microsoft PowerPoint 2007/2008
+1644  -  AutoDesk DWF
+1645  -  Corel Draw 12.0
+1646  -  JPEG 2000
+1647  -  Adobe Indesign
+1648  -  JPEG 2000 jpf Extension
+1649  -  JPEG 2000 mj2 Extension
+1650  -  WordPerfect Informs 1.0
+1651  -  Lotus Screen SnapShot
+1652  -  Lotus Screen Snapshot
+1653  -  Interchange Format
+1654  -  Microsoft Escher Graphics
+1700  -  Windows Sound
+1701  -  Windows Video
+1702  -  MIDI File
+1703  -  Macromedia Director
+1704  -  Macromedia Flash
+1705  -  Quicktime Movie
+1706  -  MPEG Layer3 ID3 Ver 1.x
+1707  -  MPEG Layer3 ID3 Ver 2.x
+1708  -  ID3 Ver 1.x
+1709  -  ID3 Ver 2.x
+1710  -  MPEG-1 audio - Layer 3
+1711  -  MPEG-1 audio - Layer 1
+1712  -  MPEG-1 audio - Layer 2
+1713  -  MPEG-2 audio - Layer 1
+1714  -  MPEG-2 audio - Layer 2
+1715  -  MPEG-2 audio - Layer 3
+1716  -  Advanced System Format
+1717  -  Windows Media Video
+1718  -  Windows Media Audio
+1719  -  Microsoft Digital Video Recording
+1720  -  Real Audio / Real Video
+1721  -  MPEG-1 video
+1722  -  MPEG-2 video
+1723  -  ISO Base Media File
+1724  -  MPEG-4 file
+1725  -  MPEG-7 file
+1726  -  Resource Interchange File Format
+1800  -  EXE / DLL File
+1801  -  .COM File
+1802  -  .ZIP/JAR File
+1803  -  Self UnZIPping .EXE
+1804  -  .ARC File
+1805  -  MS Office Binder
+1806  -  UNIX Compress
+1807  -  UNIX Tar
+1808  -  Envoy
+1809  -  QuickFinder
+1810  -  Windows Clipboard File
+1811  -  Envoy 7
+1812  -  StuffIt
+1813  -  LZH Compress
+1814  -  Self-Extracting LZH
+1815  -  UNIX GZip
+1816  -  Java Class File
+1817  -  mbox(RFC-822 mailbox)
+1818  -  Lotus Notes Database R6.x
+1819  -  Generic Password Protected Microsoft Office 2007 Document
+1820  -  Microsoft Cabinet File
+1821  -  .RAR File
+1822  -  Self extracting RAR File
+1823  -  Microsoft InfoPath File
+1824  -  Microsoft OneNote 2007
+1825  -  Windows Media Player Playlist
+1998  -  File Identification: None
+1999  -  Unknown format
+2004  -  Flexiondoc v4.0 (XML)
+2005  -  Flexiondoc v5.0 (XML)
+2006  -  Flexiondoc v5.1 (XML)
+2007  -  Domino XML Document
+2008  -  Flexiondoc v5.2 (XML)
+2010  -  Adobe Indesign Interchange
+2012  -  Microsoft Visio XML
+2015  -  Mail Archive DXL
+2016  -  Mail Message DXL
+2017  -  Generic DXL
+2030  -  Flexiondoc v5.3 (XML)
+2031  -  OASIS OpenDocument v1.0 (XML)
+2032  -  Flexiondoc v5.4 (XML)
+2033  -  Flexiondoc, Latest version (XML)
+2200  -  AutoCAD 2008 Drawing
+2201  -  Microsoft Publisher 2000/2003
+2202  -  Microsoft Publisher 2007
+2203  -  Open Office 1.x Impress
+2204  -  Open Office 2.x Impress (ODF 1.1)
+2205  -  IBM/Lotus Symphony Presentation (ODF 1.1)
+2206  -  Open Office 1.x Draw
+2207  -  Open Office 2.x Draw (ODF 1.1)
+2208  -  Microsoft PowerPoint 2007/2008 Template
+2209  -  Microsoft PowerPoint 2007/2008 Macro Enabled Presentation
+2210  -  Microsoft PowerPoint 2007/2008 Macro Enabled Template
+2211  -  Microsoft PowerPoint 2007/2008 Slideshow
+2212  -  Microsoft PowerPoint 2007/2008 Macro Enabled Slideshow
+2213  -  Oracle Multimedia Internal Raster Format
+2214  -  Open Office 3.x Impress (ODF 1.2)
+2215  -  Open Office 3.x Draw (ODF 1.2)
+2216  -  Corel Presentations X4
+2217  -  Microsoft Access Snapshot File
+2218  -  StarOffice 9 Impress (ODF 1.2)
+2219  -  StarOffice 9 Draw (ODF 1.2)
+2220  -  Oracle Open Office 3.x Impress (ODF 1.2)
+2221  -  Oracle Open Office 3.x Draw (ODF 1.2)
+2222  -  Microsoft PowerPoint 2010
+2223  -  Microsoft PowerPoint 2010 Template
+2224  -  Microsoft PowerPoint 2010 Macro Enabled Template
+2225  -  Microsoft PowerPoint 2010 Slideshow
+2226  -  Microsoft PowerPoint 2010 Macro Enabled Presentation
+2227  -  Microsoft PowerPoint 2010 Macro Enabled Slideshow
+2228  -  Password Protected Microsoft PowerPoint 2010
+2300  -  Performance Filter
+4000  -  Unknown (ASCII)
+4001  -  Unknown (Hex)
+4002  -  Unknown (ANSI)
+4003  -  Unknown (Unicode)
+4004  -  Unknown (ASCII 8)
+4005  -  Unknown (ANSI 8)
+4006  -  Unknown format
+4007  -  Unknown (Mac)
+4008  -  Unknown (Mac 8)
+4009  -  Text - Japanese (ShiftJIS)
+4010  -  Text - Chinese (GB)
+4011  -  Text - Korean (Hangul)
+4012  -  Text - Chinese (Big 5)
+4013  -  Text - Unknown (DOS Latin 2)
+4014  -  Text - Japanese (EUC)
+4015  -  Text - Hebrew (7-bit)
+4016  -  Text - Hebrew (IBM PC8)
+4017  -  Text - Hebrew (VAX E0)
+4018  -  Text - Hebrew (Windows ANSI 1255)
+4021  -  Text - Arabic (Windows ANSI 1256)
+4022  -  Text - 7-Bit File
+4023  -  Text - Japanese (JIS)
+4024  -  Text - Central European
+4025  -  UTF-8 encoded Text
+4026  -  Text - U.S. English/Portuguese (EBCDIC 37)
+4027  -  Text - Austrian/German (EBCDIC 273)
+4028  -  Text - Danish/Norwegian (EBCDIC 277)
+4029  -  Text - Finnish/Swedish (EBCDIC 278)
+4030  -  Text - Italian (EBCDIC 280)
+4031  -  Text - Spanish (EBCDIC 284)
+4032  -  Text - U.K. English (EBCDIC 285)
+4033  -  Text - French (EBCDIC 297)
+4034  -  Text - Belgian/International (EBCDIC 500)
+4035  -  Text - Eastern European (EBCDIC 870)
+4036  -  Text - Icelandic (EBCDIC 871)
+4037  -  Text - Turkish (EBCDIC 1026)
+4038  -  HTML - U.S. English/Portuguese (EBCDIC 37)
+4039  -  HTML - Austrian/German  (EBCDIC 273)
+4040  -  HTML - Danish/Norwegian (EBCDIC 277)
+4041  -  HTML - Finnish/Swedish (EBCDIC 278)
+4042  -  HTML - Italian (EBCDIC 280)
+4043  -  HTML - Spanish (EBCDIC 284)
+4044  -  HTML - U.K. English (EBCDIC 285)
+4045  -  HTML - French (EBCDIC 297)
+4046  -  HTML - Belgian/International (EBCDIC 500)
+4047  -  HTML - Eastern European (EBCDIC 870)
+4048  -  HTML - Icelandic (EBCDIC 871)
+4049  -  HTML - Turkish (EBCDIC 1026)
+4050  -  UUE Encoded Text
+4051  -  UUE Encoded Continued Part
+4052  -  XXE Encoded Text
+4053  -  XXE Encoded Continued Part
+4054  -  YEnc Encoded Text
+4055  -  YEnc Encoded Continued Part
+4056  -  BinHex Encoded Text
+4057  -  BinHex Encoded Continued Part
+4058  -  Text - Arabic (ASMO-708)
+4059  -  Text - Arabic (DOS OEM 720 TRANSPARENT ASMO)
+4060  -  Text - Arabic (ISO 8859-6)
+4061  -  Text - Arabic (Mac)
+4062  -  Text - Baltic (ISO 8859-4)
+4063  -  Text - Baltic (Windows ANSI 1257)
+4064  -  Text - Central European (DOS OEM 852 Latin II)
+4065  -  Text - Central European (ISO 8859-2)
+4066  -  Text - Central European (Mac)
+4067  -  Text - Central European (Windows ANSI 1250)
+4068  -  Text - Chinese Simplified (Windows ANSI 936 [GB2312])
+4069  -  Text - Chinese Traditional (Windows ANSI 950 [BIG5])
+4070  -  Text - Cyrillic (DOS OEM 855)
+4071  -  Text - Cyrillic (ISO 8859-5)
+4072  -  Text - Cyrillic (KOI8-R)
+4073  -  Text - Cyrillic (Mac)
+4074  -  Text - Cyrillic (Windows ANSI 1251)
+4075  -  Text - Greek (ISO 8859-7)
+4076  -  Text - Greek (Mac)
+4077  -  Text - Greek (Windows ANSI 1253)
+4078  -  Text - Hebrew (DOS OEM 862)
+4079  -  Text - Hebrew (ISO 8859-8)
+4080  -  Text - Japanese (Mac)
+4082  -  Text - Korean (Windows ANSI 1361 [Johab])
+4083  -  Text - Korean (Windows ANSI 949)
+4084  -  Text - Russian (DOS OEM 866)
+4085  -  Text - Thai (Windows ANSI 874)
+4086  -  Text - Turkish (DOS OEM 857)
+4087  -  Text - Turkish (ISO 8859-9)
+4088  -  Text - Turkish (Mac)
+4089  -  Text - Turkish (Windows ANSI 1254)
+4090  -  Text - Vietnamese (Windows ANSI 1258)
+4091  -  Text - Western European (ISO 8859-1)
+4092  -  Text - Western European (Mac)
+4093  -  Text - Western European (Windows ANSI 1252)
+4094  -  HTML - Arabic (ASMO-708)
+4095  -  HTML - Arabic (DOS OEM 720 TRANSPARENT ASMO)
+4096  -  HTML - Arabic (ISO 8859-6)
+4097  -  HTML - Arabic (Mac)
+4098  -  HTML - Arabic (Windows ANSI 1256)
+4100  -  HTML - Baltic (Windows ANSI 1257)
+4101  -  HTML - Central European (DOS OEM 852 Latin II)
+4102  -  HTML - Central European (ISO 8859-2)
+4103  -  HTML - Central European (Mac)
+4104  -  HTML - Central European (Windows ANSI 1250)
+4105  -  HTML - Chinese Simplified (EUC)
+4106  -  HTML - Chinese Simplified (Windows ANSI 936 [GB2312])
+4107  -  HTML - Chinese Traditional (Windows ANSI 950 [BIG5])
+4108  -  HTML - Cyrillic (DOS OEM 855)
+4109  -  HTML - Cyrillic (ISO 8859-5)
+4110  -  HTML - Cyrillic (KOI8-R)
+4111  -  HTML - Cyrillic (Mac)
+4112  -  HTML - Cyrillic (Windows ANSI 1251)
+4113  -  HTML - Greek (ISO 8859-7)
+4114  -  HTML - Greek (Mac)
+4115  -  HTML - Greek (Windows ANSI 1253)
+4116  -  HTML - Hebrew (DOS OEM 862)
+4117  -  HTML - Hebrew (ISO 8859-8)
+4118  -  HTML - Hebrew (Windows ANSI 1255)
+4119  -  HTML - Japanese (Mac)
+4120  -  HTML - Japanese (Windows Shift-JIS ANSI 932)
+4121  -  HTML - Korean (Windows ANSI 1361 [Johab])
+4122  -  HTML - Korean (Windows ANSI 949)
+4123  -  HTML - Russian (DOS OEM 866)
+4124  -  HTML - Thai (Windows ANSI 874)
+4125  -  HTML - Turkish (DOS OEM 857)
+4126  -  HTML - Turkish (ISO 8859-9)
+4127  -  HTML - Turkish (Mac)
+4128  -  HTML - Turkish (Windows ANSI 1254)
+4129  -  HTML - Vietnamese (Windows ANSI 1258)
+4130  -  HTML - Western European (ISO 8859-1)
+4131  -  HTML - Western European (Mac)
+4132  -  HTML - Western European (Windows ANSI 1252)
+5000  -  Windows Metafile [5000]
+5001  -  WordPerfect Graphic [B]
+5002  -  Ami (internal bitmap)
+5003  -  Word (internal bitmap)
+5004  -  Mac PICT2 Binary
+5005  -  Windows Metafile [5005]
+5006  -  Windows Metafile [5006]
+5007  -  PerfectWorks Picture
+5008  -  WPG2 (internal bitmap)
+5009  -  Windows DIB
+5010  -  WPG1 (internal bitmap)
+5011  -  Embedded Bitmap
+5012  -  Embedded Bitmap
+5013  -  IAF (internal bitmap)
+5014  -  IAF (internal bitmap)
+5015  -  PICT (internal bitmap)
