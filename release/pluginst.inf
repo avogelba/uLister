@@ -3,4 +3,4 @@ description=uLister is a powerful document viewer which can open more than 500 f
 type=wlx
 file=ulister.wlx
 defaultdir=ulister
-version=4.0.0.1
+version=4.0.0.3

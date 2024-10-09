@@ -22,7 +22,10 @@ source/externals/totalcmd/wlx-sdk/.nojekyll
 [Rr]elease/ulister.wlx
 [Rr]elease/ulister.wlx64
 
+
 source/out/
+
+*.zip
 
 # User-specific files
 *.rsuser
