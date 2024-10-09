@@ -3,6 +3,27 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# project files
+source/externals/[Vv][Ww] sdk 32x/sdk/
+source/externals/[Vv][Ww] sdk 32x/redist/
+source/externals/[Vv][Ww] sdk 32x/makedemo.bat
+source/externals/[Vv][Ww] sdk 32x/[Rr]eadme.txt
+
+source/externals/[Vv][Ww] sdk 64x/sdk/
+source/externals/[Vv][Ww] sdk 64x/redist/
+source/externals/[Vv][Ww] sdk 64x/makedemo.bat
+source/externals/[Vv][Ww] sdk 64x/[Rr]eadme.txt
+
+source/externals/totalcmd/wlx-sdk/src/
+source/externals/totalcmd/wlx-sdk/docs/
+source/externals/totalcmd/wlx-sdk/README.md
+source/externals/totalcmd/wlx-sdk/.nojekyll
+
+[Rr]elease/ulister.wlx
+[Rr]elease/ulister.wlx64
+
+source/out/
+
 # User-specific files
 *.rsuser
 *.suo

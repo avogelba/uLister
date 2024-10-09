@@ -19,7 +19,7 @@ Parameters:
 "keepinmemory" allow keep Outside In Viewer library in memory, it reduce document load time but increase memory consumption (Default enable).
 "optionsdir" contain folder path for save settings(Environment variables now supported)
 6. Installation
-Download vw-8-3-7-win-x86-32.zip(or latest version if available) or vw-8-3-7-win-x86-64.zip(for x64 plugin version) from
+Download Viewer Technology: vw-8-3-7-win-x86-32.zip(or latest version if available) or vw-8-3-7-win-x86-64.zip(for x64 plugin version) from
 http://www.oracle.com/technetwork/middleware/content-management/downloads/oit-dl-otn-097435.html , you need accept license and register.
 And copy "redist" folder to plugin folder.
 

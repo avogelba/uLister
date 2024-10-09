@@ -19,7 +19,10 @@
 #include <windows.h>
 #include <stdio.h>
 #include "ulister.h"
+//original <listplug.h>
 #include "total.h"
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 HINSTANCE  hInst;
 HANDLE     hViewerLibrary;
@@ -108,14 +111,20 @@ extern "C" __declspec(dllexport)int __stdcall ListSearchText(HWND ListWin,char* 
 			SCCVWSEARCHINFO40  locSearchInfo;
 
 			locSearchInfo.dwSize = sizeof(SCCVWSEARCHINFO40);
+// original used strncpy, supress error about unsafe strcopy and using strncpy_s instead 
+#pragma warning( push )
+#pragma warning( disable : 4996 )
 			strncpy(locSearchInfo.siText,SearchString,79);
+#pragma warning( pop ) 
 			locSearchInfo.siTextLen = strlen(locSearchInfo.siText);
 
 			locSearchInfo.siType =(SearchParameter & lcs_matchcase)? SCCVW_SEARCHCASE:SCCVW_SEARCHNOCASE;
 			locSearchInfo.siFrom = SCCVW_SEARCHCURRENT;
 			locSearchInfo.siDirection = (SearchParameter & lcs_backwards)?SCCVW_SEARCHBACK:SCCVW_SEARCHFORWARD;
 
-			if(SendMessage(mydata->oiWindow,SCCVW_SEARCH,0,(LPARAM)(PSCCVWSEARCHINFO40)&locSearchInfo)!=0)
+			//Updated for find to work
+			//if(SendMessage(mydata->oiWindow,SCCVW_SEARCH,0,(LPARAM)(PSCCVWSEARCHINFO40)&locSearchInfo)!=0)
+			if (SendMessage(mydata->oiWindow, SCCVW_SEARCH, 0, (LPARAM)(PSCCVWSEARCHINFO80)&locSearchInfo) != 0)
 				MessageBox(mydata->oiWindow, SearchString, "Not found:", MB_OK);
 		} else
 		if(SearchParameter & lcs_backwards) {

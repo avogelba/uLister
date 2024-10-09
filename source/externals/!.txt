@@ -1,0 +1,4 @@
+Put 32-bit and 64-bit Oracle VW SDK in according subdirectories.
+
+
+
