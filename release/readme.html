@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"><head>
+
+
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>uLister</title>
+  
+
+  
+  <meta content="Egor Vlaznev" name="author"></head><body>
+<big style="font-weight: bold;"><big><small>uLister + Text Search + Document
+Converter (C) Egor Vlaznev 2011</small><br>
+</big></big><span id="result_box" class="short_text" lang="en"><span title="Click for alternate translations" class="hps"></span></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;" id="result_box" class="short_text" lang="en"><span title="Click for alternate translations" class="hps"><big>Contents</big></span></span><span style="font-weight: bold;">:</span><br>
+
+<big style="font-weight: bold;"><a href="#1._About">1. About</a><br>
+<a href="#2._Supported_files_formats">2. Supported files formats</a><br>
+<a href="#3._License">3. License</a><br>
+<a href="#4._Credits">4. Credits</a><br>
+<a href="#5._Configuration">5. Configuration</a><br>
+<a href="#6._Installation">6. Installation</a><br>
+&nbsp;&nbsp;&nbsp; <a href="#Lister_plugin:">Lister plugin</a><br>
+&nbsp;&nbsp;&nbsp; <a href="#Content_plugin:">Content plugin</a><br>
+&nbsp;&nbsp;&nbsp; <a href="#Document_Converter">Document Converter</a><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#text:">text</a><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#pdf:">pdf</a><br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#html_mhtml:">html, mhtml</a><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <a href="#jpeg_2000_jpeg_tiff_png_gif_bmp:">jpeg 2000, jpeg, tiff, png, gif, bmp</a><br>
+</big><big style="font-weight: bold;">&nbsp;&nbsp;&nbsp; <a href="#Bookmarks_browser:">Bookmarks browser</a></big><br>
+<big style="font-weight: bold;">
+<a href="#7._Shortcut">7. Shortcut</a><br>
+<a href="#8._History">8. History</a><br>
+</big>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="1._About"></a>1. About</big><br>
+
+<ul>
+  <li><span style="font-weight: bold;">uLister</span> is a powerful document
+viewer which can open more than 500 file formats.</li>
+  <li><span style="font-weight: bold;">Text Search</span> allow search files
+and all level attachments contain the specified text in the file search
+dialog.</li>
+  <li><span style="font-weight: bold;">Document Converter</span> allow
+convert files to text, pdf, html, mhtml, jpeg 2000, jpeg, tiff, png, gif, bmp.</li>
+</ul>
+
+
+
+
+
+
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="2._Supported_files_formats"></a>2.
+Supported files formats</big><br>
+
+Many popular word processing, spreadsheet, presentation, raster and
+vector image.<br>
+
+Full list:<a href="http://www.oracle.com/technetwork/middleware/content-management/ds-oitfiles-133032.pdf"> http://www.oracle.com/technetwork/middleware/content-management/ds-oitfiles-133032.pdf</a><br>
+
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="3._License"></a>3. License</big><br>
+
+This software are provided "as-is". No warranty provided.<br>
+
+<span style="font-weight: bold; color: red;">This plugin is freeware,
+but libraries from Oracle® is not, you must accept license </span><a href="http://www.oracle.com/technetwork/licenses/standard-license-152015.html">http://www.oracle.com/technetwork/licenses/standard-license-152015.html</a><span style="font-weight: bold; color: red;"> before using.</span><br style="color: red;">
+
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="4._Credits"></a>4. Credits</big><br>
+<ul>
+  <li>
+
+Outside In Viewer © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In Search Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In PDF Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In HTML Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In Image Export © 1991, 2010 Oracle.</li>
+  <li>
+
+Outside In File ID © 1991, 2010 Oracle.</li>
+  <li>
+
+The software is based in part on the work of the Independent JPEG Group.</li>
+  
+</ul>
+
+
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="5._Configuration"></a>5.
+Configuration</big><br>
+
+Use ulister.ini in plugin or&nbsp; %COMMANDER_INI% or %APPDATA% dir.<br>
+If you want to change settings from plugin, ulister.ini must be writable.<br>
+If ulister.ini not found it created in %APPDATA% 
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"></span><ul><ul><li>Parameter "noloadtypes" allow disable plugin for some formats.&nbsp; </li>
+  </ul>
+
+  
+  <ul>
+    <li>
+
+Parameter "onlyloadtypes" allow enable plugin only for some
+formats.&nbsp; </li>
+  </ul>
+
+  
+  <ul>
+    <li>
+
+Parameter "nopreviewtypes" allow disable create preview for some
+formats.&nbsp; </li>
+  </ul>
+
+  
+  <ul>
+    <li>
+
+Parameter "onlypreviewtypes" allow enable create preview only for some
+formats.&nbsp; </li>
+  </ul>
+
+  
+  <ul>
+    <li>
+
+Parameter "nosearchtypes" allow disable search files contain text for
+some format.&nbsp; </li>
+  </ul>
+
+  
+  
+  <ul>
+
+    <li>
+
+Parameter "onlysearchtypes" allow enable search files contain text only
+for some form
+</li><li>Parameter "keepinmemory" allow keep Outside In Viewer library in
+memory, it reduce document load time but increase memory consumption (Default enable).</li><li>
+
+Parameter "optionsdir" contain folder path for save settings(Environment variables now supported)</li>
+    <li>Parameter "showtoolbar" allow disable toolbar (Default toolbar enable).</li>
+
+  
+  </ul>
+
+
+</ul><ul>
+
+  
+  
+
+  
+  
+
+</ul>
+
+
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="6._Installation"></a>6.
+Installation</big><br>
+
+All files listed below you may download from <a href="http://www.oracle.com/technetwork/middleware/content-management/downloads/oit-dl-otn-097435.html">http://www.oracle.com/technetwork/middleware/content-management/downloads/oit-dl-otn-097435.html
+</a>, <span style="font-weight: bold; color: red;">you need accept license and register for this.</span><br style="color: red;">
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="Lister_plugin:"></a>Lister
+plugin:</span><br>Install plugin from archive.<br>Download <a href="http://download.oracle.com/otn/outsidein/vw-8-3-5-win-x86-32.zip">vw-8-3-5-win-x86-32.zip</a> : Viewer Technology 8.3.5 Windows
+(x86-32)<br>Copy "redist" folder to plugin folder.<br>
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="Content_plugin:"></a>Content
+plugin:</span><br>Install ulister.wlx like wdx plugin.<br>Download <a href="http://download.oracle.com/otn/outsidein/sx-8-3-5-win-x86-32.zip">sx-8-3-5-win-x86-32.zip</a> : Search Export 8.3.5 Windows (x86-32)<br>Copy "redist" folder to plugin folder, without file replacement.<br>
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="Document_Converter"></a>Document Converter</span>:<br>
+If you want to convert many file at once add ulister.wlx like wcx plugin, <span id="result_box" class="short_text" lang="en"><span title="Click for alternate translations" class="hps">to do this</span></span> add to wincmd.ini:<br>
+[PackerPlugins]<br>
+
+convert=23,<span style="font-style: italic;">path to uLister</span>\ulister.wlx<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"> <a name="text:"></a>text:</span><br>Download <a href="http://download.oracle.com/otn/outsidein/sx-8-3-5-win-x86-32.zip">sx-8-3-5-win-x86-32.zip</a> : Search Export 8.3.5 Windows (x86-32)<br>Copy "redist" folder to plugin folder, without file replacement.<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"> <a name="pdf:"></a>pdf:</span><br>Download <a href="http://download.oracle.com/otn/outsidein/px-8-3-5-win-x86-32.zip">px-8-3-5-win-x86-32.zip</a> : PDF Export 8.3.5 Windows (x86-32)<br>Copy "redist" folder to plugin folder, without file replacement.<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="html_mhtml:"></a>html, mhtml:</span><br>Download <a href="http://download.oracle.com/otn/outsidein/hx-8-3-5-win-x86-32.zip">hx-8-3-5-win-x86-32.zip</a> : HTML Export 8.3.5 Windows (x86-32)<br>Copy "redist" folder to plugin folder, without file replacement.<br>
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><a name="jpeg_2000_jpeg_tiff_png_gif_bmp:"></a>jpeg
+2000, jpeg, tiff, png, gif, bmp:</span><br>Download <a href="http://download.oracle.com/otn/outsidein/ix-8-3-5-win-x86-32.zip">ix-8-3-5-win-x86-32.zip</a> : Image Export 8.3.5 Windows (x86-32)<br>Copy "redist" folder to plugin folder, without file replacement.<br>
+<hr style="width: 100%; height: 2px;"><big style="font-weight: bold;"><a name="Bookmarks_browser:"></a>Bookmarks browser:</big><br>
+To view list files with saved position, install ulister.wlx like wfx plugin.<br>
+
+<hr style="width: 100%; height: 2px;"><big><span style="font-weight: bold;"><a name="7._Shortcut"></a>7.
+Shortcut</span></big><br>
+<ul>
+  <li>
+
+Ctrl M - Save current position</li>
+  <li>Ctrl T - Show/Hide toolbar<br>
+  </li>
+  <li>Ctrl O - Options<br>
+  </li>
+
+  <li>
+
+Ctrl Z - Load current position</li>
+  <li>
+
+Ctrl S - Convertion dialog</li>
+  <li>
+
+Ctrl + - Zoom In</li>
+  <li>
+
+Ctrl - - Zoom Out</li>
+</ul>
+
+
+<hr style="width: 100%; height: 2px;"><big><span style="font-weight: bold;"><a name="8._History"></a>8.
+History</span></big><br>
+
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">3.0.2 (8.04.2011)</span><br>
+
+
+<ul>
+<li>Quick view mode fix</li>
+  <li>Window resize fix<br>
+  </li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">3.0.1 (31.03.2011)</span><br>
+
+<ul>
+  <li>Tabs removed</li>
+</ul>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">3.0.0 (29.03.2011)</span><br>
+<ul>
+  <li>Added tabs</li>
+  <li>Added bookmarks browser</li>
+  <li>Added converters options</li>
+  <li>Added filetypes filter in options dialog</li>
+  <li>Fixed many bugs</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">2.6.0 (18.03.2011)</span><br>
+<ul>
+  <li>Added wcx compatiblity for Document Converter, now it can convert many file at once</li>
+  <li>
+
+Fixed bugs</li>
+</ul>
+
+
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">2.5.0 (17.03.2011)</span><br>
+
+
+<ul>
+<li>Added options dialog<br>
+</li><li>
+
+Fixed many bugs</li>
+</ul>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">2.0.0 (02.03.2011)</span><br>
+
+<ul>
+  <li>Added toolbar</li>
+  <li>Added context menu items</li>
+  <li>Fixed display unicode file name in lister window title</li>
+  <li>Fixed ini parser<br>
+  </li>
+</ul>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.4.0 (17.02.2011)</span><br>
+<ul>
+  <li>
+
+Fixed many bugs in conversion routine(Unicode + Save file dialog).</li>
+  <li>
+
+Fixed dynamic library loading function (Now unicode).</li>
+  <li>
+
+Added conversion to jpeg 2000,jpeg,tiff,png,gif,bmp.</li>
+  <li>
+
+Added position saving feature.</li>
+  <li>Ini parser now accept only UTF-8 file and can work with unicode filenames.<br>
+  </li>
+
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.3.0 (09.02.2011)</span><br>
+<ul>
+  <li>
+
+Added conversion feature, you can convert files to txt,pdf,html,mhtml.</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.2.1 (03.02.2011)</span><br>
+<ul>
+  <li>
+
+Сontent plugin speed dramatically increased. </li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.2.0 (03.02.2011)</span><br>
+<ul>
+  <li>
+
+Added content plugin function for search files contain the specified
+text.</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.1.0 (29.01.2011)</span><br>
+<ul>
+  <li>
+
+Fixed critical bug: vector image loading now working stable.</li>
+  <li>
+
+Fixed html navigation.</li>
+  <li>
+
+Added ListGetPreviewBitmap,ListGetPreviewBitmapW</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.4 (22.01.2011)</span><br>
+<ul>
+  <li>
+
+Fixed vertical scroll.</li>
+  <li>
+
+Added horizontal scroll, if your mouse support it.</li>
+  <li>
+
+Added zoom hotkey: Ctrl +/- or mouse scroll</li>
+  <li>
+
+Fixed search, Shift F3 now works.</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.3 (21.01.2011)</span><br>
+<ul>
+  <li>
+
+Fixed serious bug introduced in 1.0.2 version</li>
+  <li>
+
+New option in oilister.ini allow keep Outside In Viewer library in
+memory, it reduce document load time but increase memory consumption.</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.2 (21.01.2011)</span><br>
+<ul>
+  <li>
+
+Attachments support now really work for Total Commander 7.50 and higher.</li>
+  <li>
+
+Automatic saving option on exit.</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.1 (21.01.2011)</span><br>
+<ul>
+  <li>
+
+All dll now load dynamically, older Total Commander version and another
+programs that use wlx plugin now supported.</li>
+  <li>
+
+Added attachments support for Total Commander 7.50 and higher</li>
+</ul>
+
+
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">1.0.0 (20.01.2011)</span><br>
+<ul>
+  <li>
+
+Initial release</li>
+</ul>
+
+
+<br>
+
+</body></html>
